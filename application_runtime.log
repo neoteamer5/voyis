@@ -1,0 +1,711 @@
+[2026-05-27 16:06:03.017] [discovery_headless] [info] discovery_headless version 0.1.5
+[2026-05-27 16:06:03.017] [discovery_headless] [info] Config: /data/discovery_headless_config.json
+[2026-05-27 16:06:03.017] [discovery_headless] [info] QoS file: /etc/voyis/VoyisQos.xml
+[2026-05-27 16:06:03.017] [discovery_headless] [warning] Slow boot detected (305 s), capturing dmesg.
+[2026-05-27 16:06:03.050] [discovery_headless] [info] dmesg captured to /data/data/dmesg_2026-05-27-16-06-03.log
+[2026-05-27 16:07:10.102] [discovery_headless] [info] discovery_headless version 0.1.5
+[2026-05-27 16:07:10.104] [discovery_headless] [info] Config: /data/discovery_headless_config.json
+[2026-05-27 16:07:10.104] [discovery_headless] [info] QoS file: /etc/voyis/VoyisQos.xml
+[2026-05-27 16:07:26.665] [discovery_headless] [info] Device detected: 1801234567 (stereo)
+[2026-05-27 16:07:27.837] [discovery_headless] [info] Device-side saving enabled: raw=true, processed=true (at /data/data/headless_capture).
+[2026-05-27 16:07:27.837] [discovery_headless] [info] Sending settings: exposure=auto ms, gain=auto dB, freq=1 Hz, raw=true, processed=true
+[2026-05-27 16:07:27.903] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 16:07:27.909] [discovery_headless] [info] Waiting for settings confirmation (timeout: 30 s)...
+[2026-05-27 16:07:30.213] [discovery_headless] [info] Capturing 10 images at 1 Hz save rate (deadline: 15 s)...
+[2026-05-27 16:11:10.390] [discovery_headless] [info] discovery_headless version 0.1.5
+[2026-05-27 16:11:10.397] [discovery_headless] [info] Config: /data/discovery_headless_config.json
+[2026-05-27 16:11:10.397] [discovery_headless] [info] QoS file: /etc/voyis/VoyisQos.xml
+[2026-05-27 16:11:27.396] [discovery_headless] [info] Device detected: 1801234567 (stereo)
+[2026-05-27 16:11:29.133] [discovery_headless] [info] Device-side saving enabled: raw=true, processed=true (at /data/data/headless_capture).
+[2026-05-27 16:11:29.133] [discovery_headless] [info] Sending settings: exposure=auto ms, gain=auto dB, freq=1 Hz, raw=true, processed=true
+[2026-05-27 16:11:29.192] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 16:11:29.199] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 16:11:29.205] [discovery_headless] [info] Waiting for settings confirmation (timeout: 30 s)...
+[2026-05-27 16:11:31.499] [discovery_headless] [info] Capturing 10 images at 1 Hz save rate (deadline: 15 s)...
+[2026-05-27 16:11:41.373] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 16:11:41.381] [discovery_headless] [info] LED disabled.
+[2026-05-27 16:11:41.381] [discovery_headless] [info] Capture Session: 10 images in 9.88 s
+[2026-05-27 16:11:41.385] [discovery_headless] [info] Boot time recorded: 00:00:28.299 | device detected: 00:00:45
+[2026-05-27 16:11:41.385] [discovery_headless] [info] Idling until power cycle.
+[2026-05-27 16:15:08.933] [discovery_headless] [info] discovery_headless version 0.1.5
+[2026-05-27 16:15:08.934] [discovery_headless] [info] Config: /data/discovery_headless_config.json
+[2026-05-27 16:15:08.934] [discovery_headless] [info] QoS file: /etc/voyis/VoyisQos.xml
+[2026-05-27 16:15:25.824] [discovery_headless] [info] Device detected: 1801234567 (stereo)
+[2026-05-27 16:15:27.251] [discovery_headless] [info] Device-side saving enabled: raw=true, processed=true (at /data/data/headless_capture).
+[2026-05-27 16:15:27.251] [discovery_headless] [info] Sending settings: exposure=auto ms, gain=auto dB, freq=1 Hz, raw=true, processed=true
+[2026-05-27 16:15:27.317] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 16:15:27.323] [discovery_headless] [info] Waiting for settings confirmation (timeout: 30 s)...
+[2026-05-27 16:15:29.612] [discovery_headless] [info] Capturing 10 images at 1 Hz save rate (deadline: 15 s)...
+[2026-05-27 16:15:39.299] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 16:15:39.307] [discovery_headless] [info] LED disabled.
+[2026-05-27 16:15:39.307] [discovery_headless] [info] Capture Session: 10 images in 9.69 s
+[2026-05-27 16:15:39.311] [discovery_headless] [info] Boot time recorded: 00:00:26.427 | device detected: 00:00:43
+[2026-05-27 16:15:39.311] [discovery_headless] [info] Idling until power cycle.
+[2026-05-27 16:19:10.290] [discovery_headless] [info] discovery_headless version 0.1.5
+[2026-05-27 16:19:10.290] [discovery_headless] [info] Config: /data/discovery_headless_config.json
+[2026-05-27 16:19:10.290] [discovery_headless] [info] QoS file: /etc/voyis/VoyisQos.xml
+[2026-05-27 16:19:26.786] [discovery_headless] [info] Device detected: 1801234567 (stereo)
+[2026-05-27 16:19:27.853] [discovery_headless] [info] Device-side saving enabled: raw=true, processed=true (at /data/data/headless_capture).
+[2026-05-27 16:19:27.854] [discovery_headless] [info] Sending settings: exposure=auto ms, gain=auto dB, freq=1 Hz, raw=true, processed=true
+[2026-05-27 16:19:27.919] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 16:19:27.925] [discovery_headless] [info] Waiting for settings confirmation (timeout: 30 s)...
+[2026-05-27 16:19:30.228] [discovery_headless] [info] Capturing 10 images at 1 Hz save rate (deadline: 15 s)...
+[2026-05-27 16:19:40.402] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 16:19:40.409] [discovery_headless] [info] LED disabled.
+[2026-05-27 16:19:40.409] [discovery_headless] [info] Capture Session: 10 images in 10.18 s
+[2026-05-27 16:19:40.417] [discovery_headless] [info] Boot time recorded: 00:00:26.868 | device detected: 00:00:43
+[2026-05-27 16:19:40.417] [discovery_headless] [info] Idling until power cycle.
+[2026-05-27 16:23:09.367] [discovery_headless] [info] discovery_headless version 0.1.5
+[2026-05-27 16:23:09.368] [discovery_headless] [info] Config: /data/discovery_headless_config.json
+[2026-05-27 16:23:09.368] [discovery_headless] [info] QoS file: /etc/voyis/VoyisQos.xml
+[2026-05-27 16:23:26.023] [discovery_headless] [info] Device detected: 1801234567 (stereo)
+[2026-05-27 16:23:27.847] [discovery_headless] [info] Device-side saving enabled: raw=true, processed=true (at /data/data/headless_capture).
+[2026-05-27 16:23:27.847] [discovery_headless] [info] Sending settings: exposure=auto ms, gain=auto dB, freq=1 Hz, raw=true, processed=true
+[2026-05-27 16:23:27.912] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 16:23:27.918] [discovery_headless] [info] Waiting for settings confirmation (timeout: 30 s)...
+[2026-05-27 16:23:30.213] [discovery_headless] [info] Capturing 10 images at 1 Hz save rate (deadline: 15 s)...
+[2026-05-27 16:23:40.292] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 16:23:40.299] [discovery_headless] [info] LED disabled.
+[2026-05-27 16:23:40.299] [discovery_headless] [info] Capture Session: 10 images in 10.09 s
+[2026-05-27 16:23:40.305] [discovery_headless] [info] Boot time recorded: 00:00:26.890 | device detected: 00:00:43
+[2026-05-27 16:23:40.305] [discovery_headless] [info] Idling until power cycle.
+[2026-05-27 16:27:11.133] [discovery_headless] [info] discovery_headless version 0.1.5
+[2026-05-27 16:27:11.134] [discovery_headless] [info] Config: /data/discovery_headless_config.json
+[2026-05-27 16:27:11.134] [discovery_headless] [info] QoS file: /etc/voyis/VoyisQos.xml
+[2026-05-27 16:27:28.228] [discovery_headless] [info] Device detected: 1801234567 (stereo)
+[2026-05-27 16:27:29.816] [discovery_headless] [info] Device-side saving enabled: raw=true, processed=true (at /data/data/headless_capture).
+[2026-05-27 16:27:29.817] [discovery_headless] [info] Sending settings: exposure=auto ms, gain=auto dB, freq=1 Hz, raw=true, processed=true
+[2026-05-27 16:27:29.881] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 16:27:29.888] [discovery_headless] [info] Waiting for settings confirmation (timeout: 30 s)...
+[2026-05-27 16:27:32.185] [discovery_headless] [info] Capturing 10 images at 1 Hz save rate (deadline: 15 s)...
+[2026-05-27 16:27:42.261] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 16:27:42.268] [discovery_headless] [info] LED disabled.
+[2026-05-27 16:27:42.268] [discovery_headless] [info] Capture Session: 10 images in 10.08 s
+[2026-05-27 16:27:42.273] [discovery_headless] [info] Boot time recorded: 00:00:27.912 | device detected: 00:00:45
+[2026-05-27 16:27:42.273] [discovery_headless] [info] Idling until power cycle.
+[2026-05-27 16:31:11.581] [discovery_headless] [info] discovery_headless version 0.1.5
+[2026-05-27 16:31:11.583] [discovery_headless] [info] Config: /data/discovery_headless_config.json
+[2026-05-27 16:31:11.583] [discovery_headless] [info] QoS file: /etc/voyis/VoyisQos.xml
+[2026-05-27 16:31:28.144] [discovery_headless] [info] Device detected: 1801234567 (stereo)
+[2026-05-27 16:31:29.266] [discovery_headless] [info] Device-side saving enabled: raw=true, processed=true (at /data/data/headless_capture).
+[2026-05-27 16:31:29.266] [discovery_headless] [info] Sending settings: exposure=auto ms, gain=auto dB, freq=1 Hz, raw=true, processed=true
+[2026-05-27 16:31:29.267] [discovery_headless] [error] Failed to send settings request for 1801234567 (attempt 1/5)
+[2026-05-27 16:31:29.267] [discovery_headless] [error]   [06.04.002] Publisher does not have a subscriber.
+[2026-05-27 16:31:29.831] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 16:31:29.838] [discovery_headless] [info] Waiting for settings confirmation (timeout: 30 s)...
+[2026-05-27 16:31:32.128] [discovery_headless] [info] Capturing 10 images at 1 Hz save rate (deadline: 15 s)...
+[2026-05-27 16:31:42.305] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 16:31:42.312] [discovery_headless] [info] LED disabled.
+[2026-05-27 16:31:42.313] [discovery_headless] [info] Capture Session: 10 images in 10.18 s
+[2026-05-27 16:31:42.319] [discovery_headless] [info] Boot time recorded: 00:00:28.452 | device detected: 00:00:45
+[2026-05-27 16:31:42.319] [discovery_headless] [info] Idling until power cycle.
+[2026-05-27 16:35:11.321] [discovery_headless] [info] discovery_headless version 0.1.5
+[2026-05-27 16:35:11.325] [discovery_headless] [info] Config: /data/discovery_headless_config.json
+[2026-05-27 16:35:11.325] [discovery_headless] [info] QoS file: /etc/voyis/VoyisQos.xml
+[2026-05-27 16:35:27.938] [discovery_headless] [info] Device detected: 1801234567 (stereo)
+[2026-05-27 16:35:29.033] [discovery_headless] [info] Device-side saving enabled: raw=true, processed=true (at /data/data/headless_capture).
+[2026-05-27 16:35:29.033] [discovery_headless] [info] Sending settings: exposure=auto ms, gain=auto dB, freq=1 Hz, raw=true, processed=true
+[2026-05-27 16:35:29.108] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 16:35:29.115] [discovery_headless] [info] Waiting for settings confirmation (timeout: 30 s)...
+[2026-05-27 16:35:31.411] [discovery_headless] [info] Capturing 10 images at 1 Hz save rate (deadline: 15 s)...
+[2026-05-27 16:35:41.287] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 16:35:41.294] [discovery_headless] [info] LED disabled.
+[2026-05-27 16:35:41.294] [discovery_headless] [info] Capture Session: 10 images in 9.88 s
+[2026-05-27 16:35:41.300] [discovery_headless] [info] Boot time recorded: 00:00:27.886 | device detected: 00:00:44
+[2026-05-27 16:35:41.300] [discovery_headless] [info] Idling until power cycle.
+[2026-05-27 16:39:10.360] [discovery_headless] [info] discovery_headless version 0.1.5
+[2026-05-27 16:39:10.361] [discovery_headless] [info] Config: /data/discovery_headless_config.json
+[2026-05-27 16:39:10.361] [discovery_headless] [info] QoS file: /etc/voyis/VoyisQos.xml
+[2026-05-27 16:39:26.478] [discovery_headless] [info] Device detected: 1801234567 (stereo)
+[2026-05-27 16:39:27.978] [discovery_headless] [info] Device-side saving enabled: raw=true, processed=true (at /data/data/headless_capture).
+[2026-05-27 16:39:27.980] [discovery_headless] [info] Sending settings: exposure=auto ms, gain=auto dB, freq=1 Hz, raw=true, processed=true
+[2026-05-27 16:39:28.035] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 16:39:28.041] [discovery_headless] [info] Waiting for settings confirmation (timeout: 30 s)...
+[2026-05-27 16:39:30.336] [discovery_headless] [info] Capturing 10 images at 1 Hz save rate (deadline: 15 s)...
+[2026-05-27 16:39:40.311] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 16:39:40.319] [discovery_headless] [info] LED disabled.
+[2026-05-27 16:39:40.319] [discovery_headless] [info] Capture Session: 10 images in 9.98 s
+[2026-05-27 16:39:40.327] [discovery_headless] [info] Boot time recorded: 00:00:27.250 | device detected: 00:00:43
+[2026-05-27 16:39:40.327] [discovery_headless] [info] Idling until power cycle.
+[2026-05-27 16:43:09.530] [discovery_headless] [info] discovery_headless version 0.1.5
+[2026-05-27 16:43:09.532] [discovery_headless] [info] Config: /data/discovery_headless_config.json
+[2026-05-27 16:43:09.532] [discovery_headless] [info] QoS file: /etc/voyis/VoyisQos.xml
+[2026-05-27 16:43:25.819] [discovery_headless] [info] Device detected: 1801234567 (stereo)
+[2026-05-27 16:43:26.812] [discovery_headless] [info] Device-side saving enabled: raw=true, processed=true (at /data/data/headless_capture).
+[2026-05-27 16:43:26.812] [discovery_headless] [info] Sending settings: exposure=auto ms, gain=auto dB, freq=1 Hz, raw=true, processed=true
+[2026-05-27 16:43:26.864] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 16:43:26.877] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 16:43:26.884] [discovery_headless] [info] Waiting for settings confirmation (timeout: 30 s)...
+[2026-05-27 16:43:29.219] [discovery_headless] [info] Capturing 10 images at 1 Hz save rate (deadline: 15 s)...
+[2026-05-27 16:43:39.599] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 16:43:39.601] [discovery_headless] [info] LED disabled.
+[2026-05-27 16:43:39.601] [discovery_headless] [info] Capture Session: 10 images in 10.38 s
+[2026-05-27 16:43:39.610] [discovery_headless] [info] Boot time recorded: 00:00:27.362 | device detected: 00:00:43
+[2026-05-27 16:43:39.610] [discovery_headless] [info] Idling until power cycle.
+[2026-05-27 16:47:10.537] [discovery_headless] [info] discovery_headless version 0.1.5
+[2026-05-27 16:47:10.539] [discovery_headless] [info] Config: /data/discovery_headless_config.json
+[2026-05-27 16:47:10.539] [discovery_headless] [info] QoS file: /etc/voyis/VoyisQos.xml
+[2026-05-27 16:47:27.432] [discovery_headless] [info] Device detected: 1801234567 (stereo)
+[2026-05-27 16:47:29.313] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 16:47:29.333] [discovery_headless] [info] Device-side saving enabled: raw=true, processed=true (at /data/data/headless_capture).
+[2026-05-27 16:47:29.333] [discovery_headless] [info] Sending settings: exposure=auto ms, gain=auto dB, freq=1 Hz, raw=true, processed=true
+[2026-05-27 16:47:29.397] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 16:47:29.404] [discovery_headless] [info] Waiting for settings confirmation (timeout: 30 s)...
+[2026-05-27 16:47:31.733] [discovery_headless] [info] Capturing 10 images at 1 Hz save rate (deadline: 15 s)...
+[2026-05-27 16:47:41.390] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 16:47:41.397] [discovery_headless] [info] LED disabled.
+[2026-05-27 16:47:41.397] [discovery_headless] [info] Capture Session: 10 images in 9.66 s
+[2026-05-27 16:47:41.405] [discovery_headless] [info] Boot time recorded: 00:00:28.424 | device detected: 00:00:45
+[2026-05-27 16:47:41.405] [discovery_headless] [info] Idling until power cycle.
+[2026-05-27 16:51:09.468] [discovery_headless] [info] discovery_headless version 0.1.5
+[2026-05-27 16:51:09.470] [discovery_headless] [info] Config: /data/discovery_headless_config.json
+[2026-05-27 16:51:09.471] [discovery_headless] [info] QoS file: /etc/voyis/VoyisQos.xml
+[2026-05-27 16:51:26.191] [discovery_headless] [info] Device detected: 1801234567 (stereo)
+[2026-05-27 16:51:28.109] [discovery_headless] [info] Device-side saving enabled: raw=true, processed=true (at /data/data/headless_capture).
+[2026-05-27 16:51:28.109] [discovery_headless] [info] Sending settings: exposure=auto ms, gain=auto dB, freq=1 Hz, raw=true, processed=true
+[2026-05-27 16:51:28.173] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 16:51:28.181] [discovery_headless] [info] Waiting for settings confirmation (timeout: 30 s)...
+[2026-05-27 16:51:30.479] [discovery_headless] [info] Capturing 10 images at 1 Hz save rate (deadline: 15 s)...
+[2026-05-27 16:51:40.456] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 16:51:40.464] [discovery_headless] [info] LED disabled.
+[2026-05-27 16:51:40.464] [discovery_headless] [info] Capture Session: 10 images in 9.98 s
+[2026-05-27 16:51:40.471] [discovery_headless] [info] Boot time recorded: 00:00:27.336 | device detected: 00:00:44
+[2026-05-27 16:51:40.471] [discovery_headless] [info] Idling until power cycle.
+[2026-05-27 16:55:10.104] [discovery_headless] [info] discovery_headless version 0.1.5
+[2026-05-27 16:55:10.107] [discovery_headless] [info] Config: /data/discovery_headless_config.json
+[2026-05-27 16:55:10.108] [discovery_headless] [info] QoS file: /etc/voyis/VoyisQos.xml
+[2026-05-27 16:55:26.836] [discovery_headless] [info] Device detected: 1801234567 (stereo)
+[2026-05-27 16:55:27.910] [discovery_headless] [info] Device-side saving enabled: raw=true, processed=true (at /data/data/headless_capture).
+[2026-05-27 16:55:27.910] [discovery_headless] [info] Sending settings: exposure=auto ms, gain=auto dB, freq=1 Hz, raw=true, processed=true
+[2026-05-27 16:55:27.985] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 16:55:27.992] [discovery_headless] [info] Waiting for settings confirmation (timeout: 30 s)...
+[2026-05-27 16:55:30.294] [discovery_headless] [info] Capturing 10 images at 1 Hz save rate (deadline: 15 s)...
+[2026-05-27 16:55:40.369] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 16:55:40.377] [discovery_headless] [info] LED disabled.
+[2026-05-27 16:55:40.377] [discovery_headless] [info] Capture Session: 10 images in 10.08 s
+[2026-05-27 16:55:40.384] [discovery_headless] [info] Boot time recorded: 00:00:28.021 | device detected: 00:00:44
+[2026-05-27 16:55:40.384] [discovery_headless] [info] Idling until power cycle.
+[2026-05-27 16:59:09.946] [discovery_headless] [info] discovery_headless version 0.1.5
+[2026-05-27 16:59:09.948] [discovery_headless] [info] Config: /data/discovery_headless_config.json
+[2026-05-27 16:59:09.948] [discovery_headless] [info] QoS file: /etc/voyis/VoyisQos.xml
+[2026-05-27 16:59:27.232] [discovery_headless] [info] Device detected: 1801234567 (stereo)
+[2026-05-27 16:59:28.606] [discovery_headless] [info] Device-side saving enabled: raw=true, processed=true (at /data/data/headless_capture).
+[2026-05-27 16:59:28.606] [discovery_headless] [info] Sending settings: exposure=auto ms, gain=auto dB, freq=1 Hz, raw=true, processed=true
+[2026-05-27 16:59:28.621] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 16:59:28.680] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 16:59:28.688] [discovery_headless] [info] Waiting for settings confirmation (timeout: 30 s)...
+[2026-05-27 16:59:30.973] [discovery_headless] [info] Capturing 10 images at 1 Hz save rate (deadline: 15 s)...
+[2026-05-27 16:59:40.346] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 16:59:40.354] [discovery_headless] [info] LED disabled.
+[2026-05-27 16:59:40.354] [discovery_headless] [info] Capture Session: 10 images in 9.38 s
+[2026-05-27 16:59:40.361] [discovery_headless] [info] Boot time recorded: 00:00:27.821 | device detected: 00:00:45
+[2026-05-27 16:59:40.361] [discovery_headless] [info] Idling until power cycle.
+[2026-05-27 17:03:09.480] [discovery_headless] [info] discovery_headless version 0.1.5
+[2026-05-27 17:03:09.481] [discovery_headless] [info] Config: /data/discovery_headless_config.json
+[2026-05-27 17:03:09.482] [discovery_headless] [info] QoS file: /etc/voyis/VoyisQos.xml
+[2026-05-27 17:03:25.953] [discovery_headless] [info] Device detected: 1801234567 (stereo)
+[2026-05-27 17:03:26.874] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 17:03:26.903] [discovery_headless] [info] Device-side saving enabled: raw=true, processed=true (at /data/data/headless_capture).
+[2026-05-27 17:03:26.903] [discovery_headless] [info] Sending settings: exposure=auto ms, gain=auto dB, freq=1 Hz, raw=true, processed=true
+[2026-05-27 17:03:26.957] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 17:03:26.964] [discovery_headless] [info] Waiting for settings confirmation (timeout: 30 s)...
+[2026-05-27 17:03:29.311] [discovery_headless] [info] Capturing 10 images at 1 Hz save rate (deadline: 15 s)...
+[2026-05-27 17:03:39.486] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 17:03:39.494] [discovery_headless] [info] LED disabled.
+[2026-05-27 17:03:39.494] [discovery_headless] [info] Capture Session: 10 images in 10.18 s
+[2026-05-27 17:03:39.502] [discovery_headless] [info] Boot time recorded: 00:00:27.338 | device detected: 00:00:43
+[2026-05-27 17:03:39.502] [discovery_headless] [info] Idling until power cycle.
+[2026-05-27 17:07:09.065] [discovery_headless] [info] discovery_headless version 0.1.5
+[2026-05-27 17:07:09.068] [discovery_headless] [info] Config: /data/discovery_headless_config.json
+[2026-05-27 17:07:09.068] [discovery_headless] [info] QoS file: /etc/voyis/VoyisQos.xml
+[2026-05-27 17:07:25.845] [discovery_headless] [info] Device detected: 1801234567 (stereo)
+[2026-05-27 17:07:27.054] [discovery_headless] [info] Device-side saving enabled: raw=true, processed=true (at /data/data/headless_capture).
+[2026-05-27 17:07:27.054] [discovery_headless] [info] Sending settings: exposure=auto ms, gain=auto dB, freq=1 Hz, raw=true, processed=true
+[2026-05-27 17:07:27.097] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 17:07:27.191] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 17:07:27.198] [discovery_headless] [info] Waiting for settings confirmation (timeout: 30 s)...
+[2026-05-27 17:07:29.484] [discovery_headless] [info] Capturing 10 images at 1 Hz save rate (deadline: 15 s)...
+[2026-05-27 17:07:39.470] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 17:07:39.479] [discovery_headless] [info] LED disabled.
+[2026-05-27 17:07:39.479] [discovery_headless] [info] Capture Session: 10 images in 9.99 s
+[2026-05-27 17:07:39.485] [discovery_headless] [info] Boot time recorded: 00:00:27.841 | device detected: 00:00:44
+[2026-05-27 17:07:39.485] [discovery_headless] [info] Idling until power cycle.
+[2026-05-27 17:11:08.367] [discovery_headless] [info] discovery_headless version 0.1.5
+[2026-05-27 17:11:08.369] [discovery_headless] [info] Config: /data/discovery_headless_config.json
+[2026-05-27 17:11:08.369] [discovery_headless] [info] QoS file: /etc/voyis/VoyisQos.xml
+[2026-05-27 17:11:25.692] [discovery_headless] [info] Device detected: 1801234567 (stereo)
+[2026-05-27 17:11:26.739] [discovery_headless] [info] Device-side saving enabled: raw=true, processed=true (at /data/data/headless_capture).
+[2026-05-27 17:11:26.739] [discovery_headless] [info] Sending settings: exposure=auto ms, gain=auto dB, freq=1 Hz, raw=true, processed=true
+[2026-05-27 17:11:26.805] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 17:11:26.811] [discovery_headless] [info] Waiting for settings confirmation (timeout: 30 s)...
+[2026-05-27 17:11:29.108] [discovery_headless] [info] Capturing 10 images at 1 Hz save rate (deadline: 15 s)...
+[2026-05-27 17:11:38.286] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 17:11:38.294] [discovery_headless] [info] LED disabled.
+[2026-05-27 17:11:38.294] [discovery_headless] [info] Capture Session: 10 images in 9.19 s
+[2026-05-27 17:11:38.300] [discovery_headless] [info] Boot time recorded: 00:00:26.874 | device detected: 00:00:44
+[2026-05-27 17:11:38.300] [discovery_headless] [info] Idling until power cycle.
+[2026-05-27 17:15:09.249] [discovery_headless] [info] discovery_headless version 0.1.5
+[2026-05-27 17:15:09.251] [discovery_headless] [info] Config: /data/discovery_headless_config.json
+[2026-05-27 17:15:09.251] [discovery_headless] [info] QoS file: /etc/voyis/VoyisQos.xml
+[2026-05-27 17:15:26.013] [discovery_headless] [info] Device detected: 1801234567 (stereo)
+[2026-05-27 17:15:27.000] [discovery_headless] [info] Device-side saving enabled: raw=true, processed=true (at /data/data/headless_capture).
+[2026-05-27 17:15:27.000] [discovery_headless] [info] Sending settings: exposure=auto ms, gain=auto dB, freq=1 Hz, raw=true, processed=true
+[2026-05-27 17:15:27.064] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 17:15:27.074] [discovery_headless] [info] Waiting for settings confirmation (timeout: 30 s)...
+[2026-05-27 17:15:29.383] [discovery_headless] [info] Capturing 10 images at 1 Hz save rate (deadline: 15 s)...
+[2026-05-27 17:15:39.258] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 17:15:39.265] [discovery_headless] [info] LED disabled.
+[2026-05-27 17:15:39.265] [discovery_headless] [info] Capture Session: 10 images in 9.88 s
+[2026-05-27 17:15:39.271] [discovery_headless] [info] Boot time recorded: 00:00:28.141 | device detected: 00:00:44
+[2026-05-27 17:15:39.271] [discovery_headless] [info] Idling until power cycle.
+[2026-05-27 17:19:08.108] [discovery_headless] [info] discovery_headless version 0.1.5
+[2026-05-27 17:19:08.117] [discovery_headless] [info] Config: /data/discovery_headless_config.json
+[2026-05-27 17:19:08.118] [discovery_headless] [info] QoS file: /etc/voyis/VoyisQos.xml
+[2026-05-27 17:19:24.949] [discovery_headless] [info] Device detected: 1801234567 (stereo)
+[2026-05-27 17:19:26.785] [discovery_headless] [info] Device-side saving enabled: raw=true, processed=true (at /data/data/headless_capture).
+[2026-05-27 17:19:26.786] [discovery_headless] [info] Sending settings: exposure=auto ms, gain=auto dB, freq=1 Hz, raw=true, processed=true
+[2026-05-27 17:19:26.842] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 17:19:26.848] [discovery_headless] [info] Waiting for settings confirmation (timeout: 30 s)...
+[2026-05-27 17:19:29.161] [discovery_headless] [info] Capturing 10 images at 1 Hz save rate (deadline: 15 s)...
+[2026-05-27 17:19:39.536] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 17:19:39.544] [discovery_headless] [info] LED disabled.
+[2026-05-27 17:19:39.544] [discovery_headless] [info] Capture Session: 10 images in 10.38 s
+[2026-05-27 17:19:39.548] [discovery_headless] [info] Boot time recorded: 00:00:26.824 | device detected: 00:00:43
+[2026-05-27 17:19:39.548] [discovery_headless] [info] Idling until power cycle.
+[2026-05-27 17:23:08.464] [discovery_headless] [info] discovery_headless version 0.1.5
+[2026-05-27 17:23:08.467] [discovery_headless] [info] Config: /data/discovery_headless_config.json
+[2026-05-27 17:23:08.467] [discovery_headless] [info] QoS file: /etc/voyis/VoyisQos.xml
+[2026-05-27 17:23:25.349] [discovery_headless] [info] Device detected: 1801234567 (stereo)
+[2026-05-27 17:23:26.991] [discovery_headless] [info] Device-side saving enabled: raw=true, processed=true (at /data/data/headless_capture).
+[2026-05-27 17:23:26.991] [discovery_headless] [info] Sending settings: exposure=auto ms, gain=auto dB, freq=1 Hz, raw=true, processed=true
+[2026-05-27 17:23:27.055] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 17:23:27.063] [discovery_headless] [info] Waiting for settings confirmation (timeout: 30 s)...
+[2026-05-27 17:23:29.357] [discovery_headless] [info] Capturing 10 images at 1 Hz save rate (deadline: 15 s)...
+[2026-05-27 17:31:08.968] [discovery_headless] [info] discovery_headless version 0.1.5
+[2026-05-27 17:31:08.970] [discovery_headless] [info] Config: /data/discovery_headless_config.json
+[2026-05-27 17:31:08.970] [discovery_headless] [info] QoS file: /etc/voyis/VoyisQos.xml
+[2026-05-27 17:31:25.741] [discovery_headless] [info] Device detected: 1801234567 (stereo)
+[2026-05-27 17:31:26.695] [discovery_headless] [info] Device-side saving enabled: raw=true, processed=true (at /data/data/headless_capture).
+[2026-05-27 17:31:26.695] [discovery_headless] [info] Sending settings: exposure=auto ms, gain=auto dB, freq=1 Hz, raw=true, processed=true
+[2026-05-27 17:31:26.760] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 17:31:26.767] [discovery_headless] [info] Waiting for settings confirmation (timeout: 30 s)...
+[2026-05-27 17:31:29.088] [discovery_headless] [info] Capturing 10 images at 1 Hz save rate (deadline: 15 s)...
+[2026-05-27 17:31:42.306] [discovery_headless] [warning] Failed to turn off LED for 1801234567
+[2026-05-27 17:31:50.697] [discovery_headless] [warning]   [06.05.004] Request timeout in the API instance.
+[2026-05-27 17:31:50.697] [discovery_headless] [info] Capture Session: 22 images in 21.61 s
+[2026-05-27 17:31:42.327] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 17:31:50.716] [discovery_headless] [info] Boot time recorded: 00:00:27.822 | device detected: 00:00:44
+[2026-05-27 17:31:50.759] [discovery_headless] [info] Idling until power cycle.
+[2026-05-27 17:35:08.100] [discovery_headless] [info] discovery_headless version 0.1.5
+[2026-05-27 17:35:08.103] [discovery_headless] [info] Config: /data/discovery_headless_config.json
+[2026-05-27 17:35:08.103] [discovery_headless] [info] QoS file: /etc/voyis/VoyisQos.xml
+[2026-05-27 17:35:24.618] [discovery_headless] [info] Device detected: 1801234567 (stereo)
+[2026-05-27 17:35:26.069] [discovery_headless] [info] Device-side saving enabled: raw=true, processed=true (at /data/data/headless_capture).
+[2026-05-27 17:35:26.069] [discovery_headless] [info] Sending settings: exposure=auto ms, gain=auto dB, freq=1 Hz, raw=true, processed=true
+[2026-05-27 17:35:26.175] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 17:35:26.181] [discovery_headless] [info] Waiting for settings confirmation (timeout: 30 s)...
+[2026-05-27 17:35:28.467] [discovery_headless] [info] Capturing 10 images at 1 Hz save rate (deadline: 15 s)...
+[2026-05-27 17:35:38.243] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 17:35:38.251] [discovery_headless] [info] LED disabled.
+[2026-05-27 17:35:38.251] [discovery_headless] [info] Capture Session: 10 images in 9.78 s
+[2026-05-27 17:35:38.258] [discovery_headless] [info] Boot time recorded: 00:00:27.956 | device detected: 00:00:44
+[2026-05-27 17:35:38.258] [discovery_headless] [info] Idling until power cycle.
+[2026-05-27 17:39:08.212] [discovery_headless] [info] discovery_headless version 0.1.5
+[2026-05-27 17:39:08.213] [discovery_headless] [info] Config: /data/discovery_headless_config.json
+[2026-05-27 17:39:08.213] [discovery_headless] [info] QoS file: /etc/voyis/VoyisQos.xml
+[2026-05-27 17:39:25.130] [discovery_headless] [info] Device detected: 1801234567 (stereo)
+[2026-05-27 17:39:26.909] [discovery_headless] [info] Device-side saving enabled: raw=true, processed=true (at /data/data/headless_capture).
+[2026-05-27 17:39:26.910] [discovery_headless] [info] Sending settings: exposure=auto ms, gain=auto dB, freq=1 Hz, raw=true, processed=true
+[2026-05-27 17:39:26.975] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 17:39:26.982] [discovery_headless] [info] Waiting for settings confirmation (timeout: 30 s)...
+[2026-05-27 17:39:29.285] [discovery_headless] [info] Capturing 10 images at 1 Hz save rate (deadline: 15 s)...
+[2026-05-27 17:39:39.263] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 17:39:39.270] [discovery_headless] [info] LED disabled.
+[2026-05-27 17:39:39.270] [discovery_headless] [info] Capture Session: 10 images in 9.98 s
+[2026-05-27 17:39:39.278] [discovery_headless] [info] Boot time recorded: 00:00:28.023 | device detected: 00:00:44
+[2026-05-27 17:39:39.278] [discovery_headless] [info] Idling until power cycle.
+[2026-05-27 17:43:08.298] [discovery_headless] [info] discovery_headless version 0.1.5
+[2026-05-27 17:43:08.300] [discovery_headless] [info] Config: /data/discovery_headless_config.json
+[2026-05-27 17:43:08.300] [discovery_headless] [info] QoS file: /etc/voyis/VoyisQos.xml
+[2026-05-27 17:43:24.759] [discovery_headless] [info] Device detected: 1801234567 (stereo)
+[2026-05-27 17:43:25.914] [discovery_headless] [info] Device-side saving enabled: raw=true, processed=true (at /data/data/headless_capture).
+[2026-05-27 17:43:25.915] [discovery_headless] [info] Sending settings: exposure=auto ms, gain=auto dB, freq=1 Hz, raw=true, processed=true
+[2026-05-27 17:43:25.915] [discovery_headless] [error] Failed to send settings request for 1801234567 (attempt 1/5)
+[2026-05-27 17:43:25.915] [discovery_headless] [error]   [06.04.002] Publisher does not have a subscriber.
+[2026-05-27 17:43:26.160] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 17:43:26.480] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 17:43:26.487] [discovery_headless] [info] Waiting for settings confirmation (timeout: 30 s)...
+[2026-05-27 17:43:28.779] [discovery_headless] [info] Capturing 10 images at 1 Hz save rate (deadline: 15 s)...
+[2026-05-27 17:43:38.354] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 17:43:38.362] [discovery_headless] [info] LED disabled.
+[2026-05-27 17:43:38.362] [discovery_headless] [info] Capture Session: 10 images in 9.58 s
+[2026-05-27 17:43:38.368] [discovery_headless] [info] Boot time recorded: 00:00:27.630 | device detected: 00:00:44
+[2026-05-27 17:43:38.368] [discovery_headless] [info] Idling until power cycle.
+[2026-05-27 17:47:09.687] [discovery_headless] [info] discovery_headless version 0.1.5
+[2026-05-27 17:47:09.689] [discovery_headless] [info] Config: /data/discovery_headless_config.json
+[2026-05-27 17:47:09.689] [discovery_headless] [info] QoS file: /etc/voyis/VoyisQos.xml
+[2026-05-27 17:47:26.300] [discovery_headless] [info] Device detected: 1801234567 (stereo)
+[2026-05-27 17:47:27.478] [discovery_headless] [info] Device-side saving enabled: raw=true, processed=true (at /data/data/headless_capture).
+[2026-05-27 17:47:27.479] [discovery_headless] [info] Sending settings: exposure=auto ms, gain=auto dB, freq=1 Hz, raw=true, processed=true
+[2026-05-27 17:47:27.539] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 17:47:27.544] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 17:47:27.550] [discovery_headless] [info] Waiting for settings confirmation (timeout: 30 s)...
+[2026-05-27 17:47:29.841] [discovery_headless] [info] Capturing 10 images at 1 Hz save rate (deadline: 15 s)...
+[2026-05-27 17:47:39.516] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 17:47:39.524] [discovery_headless] [info] LED disabled.
+[2026-05-27 17:47:39.524] [discovery_headless] [info] Capture Session: 10 images in 9.68 s
+[2026-05-27 17:47:39.529] [discovery_headless] [info] Boot time recorded: 00:00:28.244 | device detected: 00:00:44
+[2026-05-27 17:47:39.529] [discovery_headless] [info] Idling until power cycle.
+[2026-05-27 17:51:09.386] [discovery_headless] [info] discovery_headless version 0.1.5
+[2026-05-27 17:51:09.390] [discovery_headless] [info] Config: /data/discovery_headless_config.json
+[2026-05-27 17:51:09.390] [discovery_headless] [info] QoS file: /etc/voyis/VoyisQos.xml
+[2026-05-27 17:51:25.929] [discovery_headless] [info] Device detected: 1801234567 (stereo)
+[2026-05-27 17:51:27.012] [discovery_headless] [info] Device-side saving enabled: raw=true, processed=true (at /data/data/headless_capture).
+[2026-05-27 17:51:27.012] [discovery_headless] [info] Sending settings: exposure=auto ms, gain=auto dB, freq=1 Hz, raw=true, processed=true
+[2026-05-27 17:51:27.087] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 17:51:27.096] [discovery_headless] [info] Waiting for settings confirmation (timeout: 30 s)...
+[2026-05-27 17:51:29.389] [discovery_headless] [info] Capturing 10 images at 1 Hz save rate (deadline: 15 s)...
+[2026-05-27 17:51:39.366] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 17:51:39.372] [discovery_headless] [info] LED disabled.
+[2026-05-27 17:51:39.372] [discovery_headless] [info] Capture Session: 10 images in 9.98 s
+[2026-05-27 17:51:39.376] [discovery_headless] [info] Boot time recorded: 00:00:27.996 | device detected: 00:00:44
+[2026-05-27 17:51:39.376] [discovery_headless] [info] Idling until power cycle.
+[2026-05-27 17:55:10.275] [discovery_headless] [info] discovery_headless version 0.1.5
+[2026-05-27 17:55:10.278] [discovery_headless] [info] Config: /data/discovery_headless_config.json
+[2026-05-27 17:55:10.278] [discovery_headless] [info] QoS file: /etc/voyis/VoyisQos.xml
+[2026-05-27 17:55:26.943] [discovery_headless] [info] Device detected: 1801234567 (stereo)
+[2026-05-27 17:55:27.908] [discovery_headless] [info] Device-side saving enabled: raw=true, processed=true (at /data/data/headless_capture).
+[2026-05-27 17:55:27.908] [discovery_headless] [info] Sending settings: exposure=auto ms, gain=auto dB, freq=1 Hz, raw=true, processed=true
+[2026-05-27 17:55:27.973] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 17:55:27.980] [discovery_headless] [info] Waiting for settings confirmation (timeout: 30 s)...
+[2026-05-27 17:55:30.287] [discovery_headless] [info] Capturing 10 images at 1 Hz save rate (deadline: 15 s)...
+[2026-05-27 17:55:40.363] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 17:55:40.370] [discovery_headless] [info] LED disabled.
+[2026-05-27 17:55:40.370] [discovery_headless] [info] Capture Session: 10 images in 10.08 s
+[2026-05-27 17:55:40.374] [discovery_headless] [info] Boot time recorded: 00:00:28.139 | device detected: 00:00:44
+[2026-05-27 17:55:40.374] [discovery_headless] [info] Idling until power cycle.
+[2026-05-27 17:59:10.257] [discovery_headless] [info] discovery_headless version 0.1.5
+[2026-05-27 17:59:10.258] [discovery_headless] [info] Config: /data/discovery_headless_config.json
+[2026-05-27 17:59:10.258] [discovery_headless] [info] QoS file: /etc/voyis/VoyisQos.xml
+[2026-05-27 17:59:26.786] [discovery_headless] [info] Device detected: 1801234567 (stereo)
+[2026-05-27 17:59:28.231] [discovery_headless] [info] Device-side saving enabled: raw=true, processed=true (at /data/data/headless_capture).
+[2026-05-27 17:59:28.232] [discovery_headless] [info] Sending settings: exposure=auto ms, gain=auto dB, freq=1 Hz, raw=true, processed=true
+[2026-05-27 17:59:28.296] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 17:59:28.303] [discovery_headless] [info] Waiting for settings confirmation (timeout: 30 s)...
+[2026-05-27 17:59:30.590] [discovery_headless] [info] Capturing 10 images at 1 Hz save rate (deadline: 15 s)...
+[2026-05-27 17:59:40.454] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 17:59:40.461] [discovery_headless] [info] LED disabled.
+[2026-05-27 17:59:40.461] [discovery_headless] [info] Capture Session: 10 images in 9.87 s
+[2026-05-27 17:59:40.471] [discovery_headless] [info] Boot time recorded: 00:00:28.060 | device detected: 00:00:44
+[2026-05-27 17:59:40.471] [discovery_headless] [info] Idling until power cycle.
+[2026-05-27 18:03:09.263] [discovery_headless] [info] discovery_headless version 0.1.5
+[2026-05-27 18:03:09.267] [discovery_headless] [info] Config: /data/discovery_headless_config.json
+[2026-05-27 18:03:09.267] [discovery_headless] [info] QoS file: /etc/voyis/VoyisQos.xml
+[2026-05-27 18:03:26.059] [discovery_headless] [info] Device detected: 1801234567 (stereo)
+[2026-05-27 18:03:27.035] [discovery_headless] [info] Device-side saving enabled: raw=true, processed=true (at /data/data/headless_capture).
+[2026-05-27 18:03:27.036] [discovery_headless] [info] Sending settings: exposure=auto ms, gain=auto dB, freq=1 Hz, raw=true, processed=true
+[2026-05-27 18:03:27.110] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 18:03:27.117] [discovery_headless] [info] Waiting for settings confirmation (timeout: 30 s)...
+[2026-05-27 18:03:29.423] [discovery_headless] [info] Capturing 10 images at 1 Hz save rate (deadline: 15 s)...
+[2026-05-27 18:03:39.498] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 18:03:39.505] [discovery_headless] [info] LED disabled.
+[2026-05-27 18:03:39.505] [discovery_headless] [info] Capture Session: 10 images in 10.08 s
+[2026-05-27 18:03:39.511] [discovery_headless] [info] Boot time recorded: 00:00:26.732 | device detected: 00:00:43
+[2026-05-27 18:03:39.511] [discovery_headless] [info] Idling until power cycle.
+[2026-05-27 18:07:10.127] [discovery_headless] [info] discovery_headless version 0.1.5
+[2026-05-27 18:07:10.130] [discovery_headless] [info] Config: /data/discovery_headless_config.json
+[2026-05-27 18:07:10.130] [discovery_headless] [info] QoS file: /etc/voyis/VoyisQos.xml
+[2026-05-27 18:07:26.909] [discovery_headless] [info] Device detected: 1801234567 (stereo)
+[2026-05-27 18:07:28.737] [discovery_headless] [info] Device-side saving enabled: raw=true, processed=true (at /data/data/headless_capture).
+[2026-05-27 18:07:28.737] [discovery_headless] [info] Sending settings: exposure=auto ms, gain=auto dB, freq=1 Hz, raw=true, processed=true
+[2026-05-27 18:07:28.793] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 18:07:28.798] [discovery_headless] [info] Waiting for settings confirmation (timeout: 30 s)...
+[2026-05-27 18:07:31.096] [discovery_headless] [info] Capturing 10 images at 1 Hz save rate (deadline: 15 s)...
+[2026-05-27 18:07:40.375] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 18:07:40.382] [discovery_headless] [info] LED disabled.
+[2026-05-27 18:07:40.382] [discovery_headless] [info] Capture Session: 10 images in 9.29 s
+[2026-05-27 18:07:40.389] [discovery_headless] [info] Boot time recorded: 00:00:27.042 | device detected: 00:00:43
+[2026-05-27 18:07:40.389] [discovery_headless] [info] Idling until power cycle.
+[2026-05-27 18:11:10.246] [discovery_headless] [info] discovery_headless version 0.1.5
+[2026-05-27 18:11:10.248] [discovery_headless] [info] Config: /data/discovery_headless_config.json
+[2026-05-27 18:11:10.248] [discovery_headless] [info] QoS file: /etc/voyis/VoyisQos.xml
+[2026-05-27 18:11:27.444] [discovery_headless] [info] Device detected: 1801234567 (stereo)
+[2026-05-27 18:11:28.975] [discovery_headless] [info] Device-side saving enabled: raw=true, processed=true (at /data/data/headless_capture).
+[2026-05-27 18:11:28.976] [discovery_headless] [info] Sending settings: exposure=auto ms, gain=auto dB, freq=1 Hz, raw=true, processed=true
+[2026-05-27 18:11:29.033] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 18:11:29.039] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 18:11:29.047] [discovery_headless] [info] Waiting for settings confirmation (timeout: 30 s)...
+[2026-05-27 18:11:31.342] [discovery_headless] [info] Capturing 10 images at 1 Hz save rate (deadline: 15 s)...
+[2026-05-27 18:11:48.391] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 18:11:48.398] [discovery_headless] [info] LED disabled.
+[2026-05-27 18:11:48.398] [discovery_headless] [info] Capture Session: 3 images in 17.06 s
+[2026-05-27 18:11:48.405] [discovery_headless] [info] Boot time recorded: 00:00:26.765 | device detected: 00:00:43
+[2026-05-27 18:11:48.405] [discovery_headless] [info] Idling until power cycle.
+[2026-05-27 18:15:10.821] [discovery_headless] [info] discovery_headless version 0.1.5
+[2026-05-27 18:15:10.823] [discovery_headless] [info] Config: /data/discovery_headless_config.json
+[2026-05-27 18:15:10.823] [discovery_headless] [info] QoS file: /etc/voyis/VoyisQos.xml
+[2026-05-27 18:15:28.060] [discovery_headless] [info] Device detected: 1801234567 (stereo)
+[2026-05-27 18:15:29.383] [discovery_headless] [info] Device-side saving enabled: raw=true, processed=true (at /data/data/headless_capture).
+[2026-05-27 18:15:29.383] [discovery_headless] [info] Sending settings: exposure=auto ms, gain=auto dB, freq=1 Hz, raw=true, processed=true
+[2026-05-27 18:15:29.448] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 18:15:29.455] [discovery_headless] [info] Waiting for settings confirmation (timeout: 30 s)...
+[2026-05-27 18:15:31.743] [discovery_headless] [info] Capturing 10 images at 1 Hz save rate (deadline: 15 s)...
+[2026-05-27 18:15:41.318] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 18:15:41.326] [discovery_headless] [info] LED disabled.
+[2026-05-27 18:15:41.326] [discovery_headless] [info] Capture Session: 10 images in 9.58 s
+[2026-05-27 18:15:41.330] [discovery_headless] [info] Boot time recorded: 00:00:26.689 | device detected: 00:00:43
+[2026-05-27 18:15:41.330] [discovery_headless] [info] Idling until power cycle.
+[2026-05-27 18:19:11.430] [discovery_headless] [info] discovery_headless version 0.1.5
+[2026-05-27 18:19:11.431] [discovery_headless] [info] Config: /data/discovery_headless_config.json
+[2026-05-27 18:19:11.431] [discovery_headless] [info] QoS file: /etc/voyis/VoyisQos.xml
+[2026-05-27 18:19:27.497] [discovery_headless] [info] Device detected: 1801234567 (stereo)
+[2026-05-27 18:19:28.529] [discovery_headless] [info] Device-side saving enabled: raw=true, processed=true (at /data/data/headless_capture).
+[2026-05-27 18:19:28.530] [discovery_headless] [info] Sending settings: exposure=auto ms, gain=auto dB, freq=1 Hz, raw=true, processed=true
+[2026-05-27 18:19:28.606] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 18:19:28.611] [discovery_headless] [info] Waiting for settings confirmation (timeout: 30 s)...
+[2026-05-27 18:19:30.910] [discovery_headless] [info] Capturing 10 images at 1 Hz save rate (deadline: 15 s)...
+[2026-05-27 18:19:40.288] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 18:19:40.296] [discovery_headless] [info] LED disabled.
+[2026-05-27 18:19:40.296] [discovery_headless] [info] Capture Session: 10 images in 9.39 s
+[2026-05-27 18:19:40.304] [discovery_headless] [info] Boot time recorded: 00:00:26.940 | device detected: 00:00:43
+[2026-05-27 18:19:40.304] [discovery_headless] [info] Idling until power cycle.
+[2026-05-27 18:23:11.694] [discovery_headless] [info] discovery_headless version 0.1.5
+[2026-05-27 18:23:11.696] [discovery_headless] [info] Config: /data/discovery_headless_config.json
+[2026-05-27 18:23:11.696] [discovery_headless] [info] QoS file: /etc/voyis/VoyisQos.xml
+[2026-05-27 18:23:28.023] [discovery_headless] [info] Device detected: 1801234567 (stereo)
+[2026-05-27 18:23:29.252] [discovery_headless] [info] Device-side saving enabled: raw=true, processed=true (at /data/data/headless_capture).
+[2026-05-27 18:23:29.253] [discovery_headless] [info] Sending settings: exposure=auto ms, gain=auto dB, freq=1 Hz, raw=true, processed=true
+[2026-05-27 18:23:29.317] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 18:23:29.325] [discovery_headless] [info] Waiting for settings confirmation (timeout: 30 s)...
+[2026-05-27 18:23:31.609] [discovery_headless] [info] Capturing 10 images at 1 Hz save rate (deadline: 15 s)...
+[2026-05-27 18:23:41.485] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 18:23:41.492] [discovery_headless] [info] LED disabled.
+[2026-05-27 18:23:41.492] [discovery_headless] [info] Capture Session: 10 images in 9.88 s
+[2026-05-27 18:23:41.497] [discovery_headless] [info] Boot time recorded: 00:00:27.245 | device detected: 00:00:43
+[2026-05-27 18:23:41.497] [discovery_headless] [info] Idling until power cycle.
+[2026-05-27 18:27:13.358] [discovery_headless] [info] discovery_headless version 0.1.5
+[2026-05-27 18:27:13.363] [discovery_headless] [info] Config: /data/discovery_headless_config.json
+[2026-05-27 18:27:13.364] [discovery_headless] [info] QoS file: /etc/voyis/VoyisQos.xml
+[2026-05-27 18:27:29.983] [discovery_headless] [info] Device detected: 1801234567 (stereo)
+[2026-05-27 18:27:31.101] [discovery_headless] [info] Device-side saving enabled: raw=true, processed=true (at /data/data/headless_capture).
+[2026-05-27 18:27:31.101] [discovery_headless] [info] Sending settings: exposure=auto ms, gain=auto dB, freq=1 Hz, raw=true, processed=true
+[2026-05-27 18:27:31.165] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 18:27:31.173] [discovery_headless] [info] Waiting for settings confirmation (timeout: 30 s)...
+[2026-05-27 18:27:33.460] [discovery_headless] [info] Capturing 10 images at 1 Hz save rate (deadline: 15 s)...
+[2026-05-27 18:27:43.336] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 18:27:43.344] [discovery_headless] [info] LED disabled.
+[2026-05-27 18:27:43.344] [discovery_headless] [info] Capture Session: 10 images in 9.88 s
+[2026-05-27 18:27:43.352] [discovery_headless] [info] Boot time recorded: 00:00:28.162 | device detected: 00:00:44
+[2026-05-27 18:27:43.352] [discovery_headless] [info] Idling until power cycle.
+[2026-05-27 18:31:11.222] [discovery_headless] [info] discovery_headless version 0.1.5
+[2026-05-27 18:31:11.223] [discovery_headless] [info] Config: /data/discovery_headless_config.json
+[2026-05-27 18:31:11.223] [discovery_headless] [info] QoS file: /etc/voyis/VoyisQos.xml
+[2026-05-27 18:31:28.370] [discovery_headless] [info] Device detected: 1801234567 (stereo)
+[2026-05-27 18:31:30.040] [discovery_headless] [info] Device-side saving enabled: raw=true, processed=true (at /data/data/headless_capture).
+[2026-05-27 18:31:30.040] [discovery_headless] [info] Sending settings: exposure=auto ms, gain=auto dB, freq=1 Hz, raw=true, processed=true
+[2026-05-27 18:31:30.135] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 18:31:30.142] [discovery_headless] [info] Waiting for settings confirmation (timeout: 30 s)...
+[2026-05-27 18:31:32.429] [discovery_headless] [info] Capturing 10 images at 1 Hz save rate (deadline: 15 s)...
+[2026-05-27 18:31:42.304] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 18:31:42.312] [discovery_headless] [info] LED disabled.
+[2026-05-27 18:31:42.312] [discovery_headless] [info] Capture Session: 10 images in 9.88 s
+[2026-05-27 18:31:42.317] [discovery_headless] [info] Boot time recorded: 00:00:26.753 | device detected: 00:00:43
+[2026-05-27 18:31:42.317] [discovery_headless] [info] Idling until power cycle.
+[2026-05-27 18:35:12.949] [discovery_headless] [info] discovery_headless version 0.1.5
+[2026-05-27 18:35:12.951] [discovery_headless] [info] Config: /data/discovery_headless_config.json
+[2026-05-27 18:35:12.951] [discovery_headless] [info] QoS file: /etc/voyis/VoyisQos.xml
+[2026-05-27 18:35:29.045] [discovery_headless] [info] Device detected: 1801234567 (stereo)
+[2026-05-27 18:35:30.398] [discovery_headless] [info] Device-side saving enabled: raw=true, processed=true (at /data/data/headless_capture).
+[2026-05-27 18:35:30.398] [discovery_headless] [info] Sending settings: exposure=auto ms, gain=auto dB, freq=1 Hz, raw=true, processed=true
+[2026-05-27 18:35:30.462] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 18:35:30.470] [discovery_headless] [info] Waiting for settings confirmation (timeout: 30 s)...
+[2026-05-27 18:35:32.765] [discovery_headless] [info] Capturing 10 images at 1 Hz save rate (deadline: 15 s)...
+[2026-05-27 18:35:42.244] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 18:35:42.251] [discovery_headless] [info] LED disabled.
+[2026-05-27 18:35:42.251] [discovery_headless] [info] Capture Session: 10 images in 9.49 s
+[2026-05-27 18:35:42.256] [discovery_headless] [info] Boot time recorded: 00:00:27.872 | device detected: 00:00:43
+[2026-05-27 18:35:42.256] [discovery_headless] [info] Idling until power cycle.
+[2026-05-27 18:39:13.217] [discovery_headless] [info] discovery_headless version 0.1.5
+[2026-05-27 18:39:13.219] [discovery_headless] [info] Config: /data/discovery_headless_config.json
+[2026-05-27 18:39:13.219] [discovery_headless] [info] QoS file: /etc/voyis/VoyisQos.xml
+[2026-05-27 18:39:30.078] [discovery_headless] [info] Device detected: 1801234567 (stereo)
+[2026-05-27 18:39:31.880] [discovery_headless] [info] Device-side saving enabled: raw=true, processed=true (at /data/data/headless_capture).
+[2026-05-27 18:39:31.880] [discovery_headless] [info] Sending settings: exposure=auto ms, gain=auto dB, freq=1 Hz, raw=true, processed=true
+[2026-05-27 18:39:31.946] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 18:39:31.952] [discovery_headless] [info] Waiting for settings confirmation (timeout: 30 s)...
+[2026-05-27 18:39:34.262] [discovery_headless] [info] Capturing 10 images at 1 Hz save rate (deadline: 15 s)...
+[2026-05-27 18:39:44.238] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 18:39:44.245] [discovery_headless] [info] LED disabled.
+[2026-05-27 18:39:44.245] [discovery_headless] [info] Capture Session: 10 images in 9.98 s
+[2026-05-27 18:39:44.251] [discovery_headless] [info] Boot time recorded: 00:00:27.965 | device detected: 00:00:44
+[2026-05-27 18:39:44.251] [discovery_headless] [info] Idling until power cycle.
+[2026-05-27 18:43:12.435] [discovery_headless] [info] discovery_headless version 0.1.5
+[2026-05-27 18:43:12.436] [discovery_headless] [info] Config: /data/discovery_headless_config.json
+[2026-05-27 18:43:12.436] [discovery_headless] [info] QoS file: /etc/voyis/VoyisQos.xml
+[2026-05-27 18:43:28.727] [discovery_headless] [info] Device detected: 1801234567 (stereo)
+[2026-05-27 18:43:29.866] [discovery_headless] [info] Device-side saving enabled: raw=true, processed=true (at /data/data/headless_capture).
+[2026-05-27 18:43:29.866] [discovery_headless] [info] Sending settings: exposure=auto ms, gain=auto dB, freq=1 Hz, raw=true, processed=true
+[2026-05-27 18:43:29.921] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 18:43:29.927] [discovery_headless] [info] Waiting for settings confirmation (timeout: 30 s)...
+[2026-05-27 18:43:32.217] [discovery_headless] [info] Capturing 10 images at 1 Hz save rate (deadline: 15 s)...
+[2026-05-27 18:43:42.393] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 18:43:42.401] [discovery_headless] [info] LED disabled.
+[2026-05-27 18:43:42.401] [discovery_headless] [info] Capture Session: 10 images in 10.18 s
+[2026-05-27 18:43:42.406] [discovery_headless] [info] Boot time recorded: 00:00:26.946 | device detected: 00:00:43
+[2026-05-27 18:43:42.406] [discovery_headless] [info] Idling until power cycle.
+[2026-05-27 18:47:13.246] [discovery_headless] [info] discovery_headless version 0.1.5
+[2026-05-27 18:47:13.249] [discovery_headless] [info] Config: /data/discovery_headless_config.json
+[2026-05-27 18:47:13.249] [discovery_headless] [info] QoS file: /etc/voyis/VoyisQos.xml
+[2026-05-27 18:47:29.616] [discovery_headless] [info] Device detected: 1801234567 (stereo)
+[2026-05-27 18:47:30.877] [discovery_headless] [info] Device-side saving enabled: raw=true, processed=true (at /data/data/headless_capture).
+[2026-05-27 18:47:30.877] [discovery_headless] [info] Sending settings: exposure=auto ms, gain=auto dB, freq=1 Hz, raw=true, processed=true
+[2026-05-27 18:47:30.952] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 18:47:30.959] [discovery_headless] [info] Waiting for settings confirmation (timeout: 30 s)...
+[2026-05-27 18:47:33.249] [discovery_headless] [info] Capturing 10 images at 1 Hz save rate (deadline: 15 s)...
+[2026-05-27 18:47:43.324] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 18:47:43.331] [discovery_headless] [info] LED disabled.
+[2026-05-27 18:47:43.332] [discovery_headless] [info] Capture Session: 10 images in 10.08 s
+[2026-05-27 18:47:43.341] [discovery_headless] [info] Boot time recorded: 00:00:27.107 | device detected: 00:00:43
+[2026-05-27 18:47:43.341] [discovery_headless] [info] Idling until power cycle.
+[2026-05-27 18:51:14.312] [discovery_headless] [info] discovery_headless version 0.1.5
+[2026-05-27 18:51:14.313] [discovery_headless] [info] Config: /data/discovery_headless_config.json
+[2026-05-27 18:51:14.313] [discovery_headless] [info] QoS file: /etc/voyis/VoyisQos.xml
+[2026-05-27 18:51:30.861] [discovery_headless] [info] Device detected: 1801234567 (stereo)
+[2026-05-27 18:51:31.970] [discovery_headless] [info] Device-side saving enabled: raw=true, processed=true (at /data/data/headless_capture).
+[2026-05-27 18:51:31.970] [discovery_headless] [info] Sending settings: exposure=auto ms, gain=auto dB, freq=1 Hz, raw=true, processed=true
+[2026-05-27 18:51:32.034] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 18:51:32.042] [discovery_headless] [info] Waiting for settings confirmation (timeout: 30 s)...
+[2026-05-27 18:51:34.334] [discovery_headless] [info] Capturing 10 images at 1 Hz save rate (deadline: 15 s)...
+[2026-05-27 18:51:44.309] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 18:51:44.316] [discovery_headless] [info] LED disabled.
+[2026-05-27 18:51:44.316] [discovery_headless] [info] Capture Session: 10 images in 9.98 s
+[2026-05-27 18:51:44.320] [discovery_headless] [info] Boot time recorded: 00:00:28.222 | device detected: 00:00:44
+[2026-05-27 18:51:44.320] [discovery_headless] [info] Idling until power cycle.
+[2026-05-27 18:55:13.282] [discovery_headless] [info] discovery_headless version 0.1.5
+[2026-05-27 18:55:13.289] [discovery_headless] [info] Config: /data/discovery_headless_config.json
+[2026-05-27 18:55:13.289] [discovery_headless] [info] QoS file: /etc/voyis/VoyisQos.xml
+[2026-05-27 18:55:29.762] [discovery_headless] [info] Device detected: 1801234567 (stereo)
+[2026-05-27 18:55:31.031] [discovery_headless] [info] Device-side saving enabled: raw=true, processed=true (at /data/data/headless_capture).
+[2026-05-27 18:55:31.034] [discovery_headless] [info] Sending settings: exposure=auto ms, gain=auto dB, freq=1 Hz, raw=true, processed=true
+[2026-05-27 18:55:31.139] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 18:55:31.146] [discovery_headless] [info] Waiting for settings confirmation (timeout: 30 s)...
+[2026-05-27 18:55:33.432] [discovery_headless] [info] Capturing 10 images at 1 Hz save rate (deadline: 15 s)...
+[2026-05-27 18:55:43.407] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 18:55:43.414] [discovery_headless] [info] LED disabled.
+[2026-05-27 18:55:43.414] [discovery_headless] [info] Capture Session: 10 images in 9.98 s
+[2026-05-27 18:55:43.421] [discovery_headless] [info] Boot time recorded: 00:00:27.202 | device detected: 00:00:43
+[2026-05-27 18:55:43.421] [discovery_headless] [info] Idling until power cycle.
+[2026-05-27 18:59:13.383] [discovery_headless] [info] discovery_headless version 0.1.5
+[2026-05-27 18:59:13.390] [discovery_headless] [info] Config: /data/discovery_headless_config.json
+[2026-05-27 18:59:13.390] [discovery_headless] [info] QoS file: /etc/voyis/VoyisQos.xml
+[2026-05-27 18:59:29.915] [discovery_headless] [info] Device detected: 1801234567 (stereo)
+[2026-05-27 18:59:31.164] [discovery_headless] [info] Device-side saving enabled: raw=true, processed=true (at /data/data/headless_capture).
+[2026-05-27 18:59:31.164] [discovery_headless] [info] Sending settings: exposure=auto ms, gain=auto dB, freq=1 Hz, raw=true, processed=true
+[2026-05-27 18:59:31.229] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 18:59:31.236] [discovery_headless] [info] Waiting for settings confirmation (timeout: 30 s)...
+[2026-05-27 18:59:33.520] [discovery_headless] [info] Capturing 10 images at 1 Hz save rate (deadline: 15 s)...
+[2026-05-27 18:59:43.296] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 18:59:43.303] [discovery_headless] [info] LED disabled.
+[2026-05-27 18:59:43.304] [discovery_headless] [info] Capture Session: 10 images in 9.78 s
+[2026-05-27 18:59:43.311] [discovery_headless] [info] Boot time recorded: 00:00:28.227 | device detected: 00:00:44
+[2026-05-27 18:59:43.311] [discovery_headless] [info] Idling until power cycle.
+[2026-05-27 19:03:13.168] [discovery_headless] [info] discovery_headless version 0.1.5
+[2026-05-27 19:03:13.170] [discovery_headless] [info] Config: /data/discovery_headless_config.json
+[2026-05-27 19:03:13.170] [discovery_headless] [info] QoS file: /etc/voyis/VoyisQos.xml
+[2026-05-27 19:03:29.918] [discovery_headless] [info] Device detected: 1801234567 (stereo)
+[2026-05-27 19:03:30.899] [discovery_headless] [info] Device-side saving enabled: raw=true, processed=true (at /data/data/headless_capture).
+[2026-05-27 19:03:30.899] [discovery_headless] [info] Sending settings: exposure=auto ms, gain=auto dB, freq=1 Hz, raw=true, processed=true
+[2026-05-27 19:03:30.964] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 19:03:30.971] [discovery_headless] [info] Waiting for settings confirmation (timeout: 30 s)...
+[2026-05-27 19:03:33.274] [discovery_headless] [info] Capturing 10 images at 1 Hz save rate (deadline: 15 s)...
+[2026-05-27 19:03:43.450] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 19:03:43.456] [discovery_headless] [info] LED disabled.
+[2026-05-27 19:03:43.456] [discovery_headless] [info] Capture Session: 10 images in 10.18 s
+[2026-05-27 19:03:43.463] [discovery_headless] [info] Boot time recorded: 00:00:28.035 | device detected: 00:00:44
+[2026-05-27 19:03:43.463] [discovery_headless] [info] Idling until power cycle.
+[2026-05-27 19:07:11.914] [discovery_headless] [info] discovery_headless version 0.1.5
+[2026-05-27 19:07:11.915] [discovery_headless] [info] Config: /data/discovery_headless_config.json
+[2026-05-27 19:07:11.915] [discovery_headless] [info] QoS file: /etc/voyis/VoyisQos.xml
+[2026-05-27 19:07:28.842] [discovery_headless] [info] Device detected: 1801234567 (stereo)
+[2026-05-27 19:07:30.761] [discovery_headless] [info] Device-side saving enabled: raw=true, processed=true (at /data/data/headless_capture).
+[2026-05-27 19:07:30.762] [discovery_headless] [info] Sending settings: exposure=auto ms, gain=auto dB, freq=1 Hz, raw=true, processed=true
+[2026-05-27 19:07:30.826] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 19:07:30.833] [discovery_headless] [info] Waiting for settings confirmation (timeout: 30 s)...
+[2026-05-27 19:07:33.137] [discovery_headless] [info] Capturing 10 images at 1 Hz save rate (deadline: 15 s)...
+[2026-05-27 19:07:43.316] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 19:07:43.321] [discovery_headless] [info] LED disabled.
+[2026-05-27 19:07:43.321] [discovery_headless] [info] Capture Session: 10 images in 10.18 s
+[2026-05-27 19:07:43.328] [discovery_headless] [info] Boot time recorded: 00:00:26.676 | device detected: 00:00:43
+[2026-05-27 19:07:43.328] [discovery_headless] [info] Idling until power cycle.
+[2026-05-27 19:11:12.178] [discovery_headless] [info] discovery_headless version 0.1.5
+[2026-05-27 19:11:12.183] [discovery_headless] [info] Config: /data/discovery_headless_config.json
+[2026-05-27 19:11:12.183] [discovery_headless] [info] QoS file: /etc/voyis/VoyisQos.xml
+[2026-05-27 19:11:28.687] [discovery_headless] [info] Device detected: 1801234567 (stereo)
+[2026-05-27 19:11:29.701] [discovery_headless] [info] Device-side saving enabled: raw=true, processed=true (at /data/data/headless_capture).
+[2026-05-27 19:11:29.701] [discovery_headless] [info] Sending settings: exposure=auto ms, gain=auto dB, freq=1 Hz, raw=true, processed=true
+[2026-05-27 19:11:29.766] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 19:11:29.773] [discovery_headless] [info] Waiting for settings confirmation (timeout: 30 s)...
+[2026-05-27 19:11:32.069] [discovery_headless] [info] Capturing 10 images at 1 Hz save rate (deadline: 15 s)...
+[2026-05-27 19:11:41.347] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 19:11:41.353] [discovery_headless] [info] LED disabled.
+[2026-05-27 19:11:41.353] [discovery_headless] [info] Capture Session: 10 images in 9.28 s
+[2026-05-27 19:11:41.361] [discovery_headless] [info] Boot time recorded: 00:00:26.608 | device detected: 00:00:43
+[2026-05-27 19:11:41.361] [discovery_headless] [info] Idling until power cycle.
+[2026-05-27 19:15:14.462] [discovery_headless] [info] discovery_headless version 0.1.5
+[2026-05-27 19:15:14.465] [discovery_headless] [info] Config: /data/discovery_headless_config.json
+[2026-05-27 19:15:14.465] [discovery_headless] [info] QoS file: /etc/voyis/VoyisQos.xml
+[2026-05-27 19:15:31.028] [discovery_headless] [info] Device detected: 1801234567 (stereo)
+[2026-05-27 19:15:32.241] [discovery_headless] [info] Device-side saving enabled: raw=true, processed=true (at /data/data/headless_capture).
+[2026-05-27 19:15:32.241] [discovery_headless] [info] Sending settings: exposure=auto ms, gain=auto dB, freq=1 Hz, raw=true, processed=true
+[2026-05-27 19:15:32.306] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 19:15:32.313] [discovery_headless] [info] Waiting for settings confirmation (timeout: 30 s)...
+[2026-05-27 19:15:34.604] [discovery_headless] [info] Capturing 10 images at 1 Hz save rate (deadline: 15 s)...
+[2026-05-27 19:15:44.371] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 19:15:44.377] [discovery_headless] [info] LED disabled.
+[2026-05-27 19:15:44.377] [discovery_headless] [info] Capture Session: 10 images in 9.77 s
+[2026-05-27 19:15:44.381] [discovery_headless] [info] Boot time recorded: 00:00:28.279 | device detected: 00:00:44
+[2026-05-27 19:15:44.381] [discovery_headless] [info] Idling until power cycle.
+[2026-05-27 19:19:13.196] [discovery_headless] [info] discovery_headless version 0.1.5
+[2026-05-27 19:19:13.199] [discovery_headless] [info] Config: /data/discovery_headless_config.json
+[2026-05-27 19:19:13.199] [discovery_headless] [info] QoS file: /etc/voyis/VoyisQos.xml
+[2026-05-27 19:19:29.963] [discovery_headless] [info] Device detected: 1801234567 (stereo)
+[2026-05-27 19:19:30.917] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 19:19:30.944] [discovery_headless] [info] Device-side saving enabled: raw=true, processed=true (at /data/data/headless_capture).
+[2026-05-27 19:19:30.944] [discovery_headless] [info] Sending settings: exposure=auto ms, gain=auto dB, freq=1 Hz, raw=true, processed=true
+[2026-05-27 19:19:31.009] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 19:19:31.016] [discovery_headless] [info] Waiting for settings confirmation (timeout: 30 s)...
+[2026-05-27 19:19:33.317] [discovery_headless] [info] Capturing 10 images at 1 Hz save rate (deadline: 15 s)...
+[2026-05-27 19:19:43.399] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 19:19:43.407] [discovery_headless] [info] LED disabled.
+[2026-05-27 19:19:43.407] [discovery_headless] [info] Capture Session: 10 images in 10.09 s
+[2026-05-27 19:19:43.411] [discovery_headless] [info] Boot time recorded: 00:00:27.684 | device detected: 00:00:44
+[2026-05-27 19:19:43.412] [discovery_headless] [info] Idling until power cycle.
+[2026-05-27 19:23:12.057] [discovery_headless] [info] discovery_headless version 0.1.5
+[2026-05-27 19:23:12.064] [discovery_headless] [info] Config: /data/discovery_headless_config.json
+[2026-05-27 19:23:12.065] [discovery_headless] [info] QoS file: /etc/voyis/VoyisQos.xml
+[2026-05-27 19:23:28.593] [discovery_headless] [info] Device detected: 1801234567 (stereo)
+[2026-05-27 19:23:30.451] [discovery_headless] [info] Device-side saving enabled: raw=true, processed=true (at /data/data/headless_capture).
+[2026-05-27 19:23:30.452] [discovery_headless] [info] Sending settings: exposure=auto ms, gain=auto dB, freq=1 Hz, raw=true, processed=true
+[2026-05-27 19:23:30.516] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 19:23:30.523] [discovery_headless] [info] Waiting for settings confirmation (timeout: 30 s)...
+[2026-05-27 19:23:32.823] [discovery_headless] [info] Capturing 10 images at 1 Hz save rate (deadline: 15 s)...
+[2026-05-27 19:23:42.297] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 19:23:42.304] [discovery_headless] [info] LED disabled.
+[2026-05-27 19:23:42.305] [discovery_headless] [info] Capture Session: 10 images in 9.48 s
+[2026-05-27 19:23:42.310] [discovery_headless] [info] Boot time recorded: 00:00:26.601 | device detected: 00:00:43
+[2026-05-27 19:23:42.310] [discovery_headless] [info] Idling until power cycle.
+[2026-05-27 19:27:13.474] [discovery_headless] [info] discovery_headless version 0.1.5
+[2026-05-27 19:27:13.479] [discovery_headless] [info] Config: /data/discovery_headless_config.json
+[2026-05-27 19:27:13.479] [discovery_headless] [info] QoS file: /etc/voyis/VoyisQos.xml
+[2026-05-27 19:27:30.401] [discovery_headless] [info] Device detected: 1801234567 (stereo)
+[2026-05-27 19:27:31.705] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 19:27:31.719] [discovery_headless] [info] Device-side saving enabled: raw=true, processed=true (at /data/data/headless_capture).
+[2026-05-27 19:27:31.719] [discovery_headless] [info] Sending settings: exposure=auto ms, gain=auto dB, freq=1 Hz, raw=true, processed=true
+[2026-05-27 19:27:31.783] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 19:27:31.791] [discovery_headless] [info] Waiting for settings confirmation (timeout: 30 s)...
+[2026-05-27 19:27:34.081] [discovery_headless] [info] Capturing 10 images at 1 Hz save rate (deadline: 15 s)...
+[2026-05-27 19:27:43.355] [discovery_headless] [info] Camera settings confirmed by device.
+[2026-05-27 19:27:43.362] [discovery_headless] [info] LED disabled.
+[2026-05-27 19:27:43.363] [discovery_headless] [info] Capture Session: 10 images in 9.28 s
+[2026-05-27 19:27:43.368] [discovery_headless] [info] Boot time recorded: 00:00:27.293 | device detected: 00:00:44
+[2026-05-27 19:27:43.369] [discovery_headless] [info] Idling until power cycle.
