@@ -49,15 +49,16 @@
 | **Pass Criteria** | No unexpected communication errors; messages are correctly received, parsed, and acknowledged; timeout/error handling works as specified. |
 | **Automation** | **High** — Python can send commands and validate responses. |
 
-#### **MCU-002: GPIO Boot/Reset and IPC Control**
+#### **MCU-002: GPIO Boot/Reset and Trigger/Strobe Control**
 
 | Item | Description |
 | ----- | ----- |
-| **Objective** | Verify that the Jetson can correctly control the STM32F405 through BOOT0, RESET, and IPC GPIO signals. |
-| **Procedure** | Exercise the defined boot and reset sequences and verify MCU startup behavior. Verify IPC GPIO signaling during normal operation. |
-| **Expected Result** | The MCU enters the expected boot/normal mode and responds correctly to reset and IPC signals. |
-| **Pass Criteria** | MCU consistently enters the expected state; reset behavior is deterministic; IPC signals are detected and handled correctly. |
-| **Automation** | **Partial/High** — software can control and verify GPIO states; an oscilloscope/logic analyzer may be required to verify precise electrical timing. |
+| **Objective** | Verify that the STM32F405 responds correctly to BOOT0, RESET, and UART commands, and generates the required camera Trigger/Strobe GPIO signals. |
+| **Procedure** | Run the GoogleTest test suite on the Jetson target. Control the available BOOT0 and RESET GPIOs through the Linux GPIO interface. Exercise the defined boot and reset sequences and verify MCU startup behavior. Use the Linux serial interface to send the defined UART command to initiate camera capture. Connect a **SparkFun 8-channel, 24 MHz USB Logic Analyzer** to the STM32 Trigger/Strobe outputs and capture the signals. Verify that the expected Trigger/Strobe signals are generated for Camera 1 and Camera 2, including pulse timing, pulse width, and synchronization. Repeat the sequence to verify deterministic behavior. |
+| **Expected Result** | The STM32F405 consistently enters the expected boot/normal mode, responds correctly to RESET and UART commands, and generates the required Trigger/Strobe signals for camera synchronization. |
+| **Pass Criteria** | MCU consistently enters the expected state; BOOT0/RESET behavior is deterministic; UART commands are handled correctly; and Trigger/Strobe signals meet the specified timing, pulse-width, and synchronization requirements. |
+| **Automation** | **High** — C++/GoogleTest can automate GPIO control, UART commands, MCU response verification, and test repetition. The SparkFun logic analyzer can be used with sigrok/PulseView to capture and measure the Trigger/Strobe signals. |
+| **Assumption / Test Equipment** | BOOT0 and RESET are **directly accessible from the Jetson through the Linux GPIO interface**, with the required GPIO mapping and electrical levels documented by the hardware design. A **SparkFun 8-channel, 24 MHz USB Logic Analyzer** is available for Trigger/Strobe timing verification. |                                                                                                                                                             |
 
 ### **MCU-003: MCU Heartbeat Monitoring**
 
