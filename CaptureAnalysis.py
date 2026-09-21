@@ -745,9 +745,9 @@ def main() -> int:
             "<application_runtime.log> "
             "[output.md]"
         )
-        return 1
-
-    log_path = Path(sys.argv[1])
+        log_path = Path("application_runtime.log")
+    else:
+        log_path = Path(sys.argv[1])
 
     if not log_path.is_file():
         print(f"Error: log file not found: {log_path}")

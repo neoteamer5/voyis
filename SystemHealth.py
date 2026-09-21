@@ -480,8 +480,10 @@ def main():
 
     parser.add_argument(
         "logfile",
+        nargs="?",
         type=Path,
-        help="Path to system log"
+        default=Path("system_status.log"),
+        help="Path to system log (default: application_runtime.log)"
     )
 
     parser.add_argument(
@@ -492,7 +494,7 @@ def main():
 
     args = parser.parse_args()
 
-    if not args.logfile.exists():
+    if not args.logfile.is_file():
         print(f"ERROR: Log file not found: {args.logfile}")
         return 2
 
