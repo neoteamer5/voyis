@@ -56,6 +56,8 @@ class LogAnalyzer:
         self.parse_image_storage()
         self.parse_system_status()
         self.parse_time_sync()
+        
+        self.parse_something()
 
         self.evaluate_tests()
 
@@ -93,28 +95,31 @@ class LogAnalyzer:
 
             self.fps_values.append(fps)
             self.video_latency_ms.append(latency)
+            
+            if fps == 0 or latency == 0:
+                print(f"fps or latency is 0: {match.group(0)}")
 
     def parse_image_storage(self):
         text = self.log_text.lower()
 
         self.raw_left = (
-            "raw left" in text
-            or re.search(r"raw.*left.*\.tif", text) is not None
+            "left_raw" in text
+            #or re.search(r"raw.*left.*\.tif", text) is not None
         )
 
         self.raw_right = (
-            "raw right" in text
-            or re.search(r"raw.*right.*\.tif", text) is not None
+            "right_raw" in text
+            or re.search(r"raw.*right.*\.tif", text) is not None # raw -> right -> .tif
         )
 
         self.processed_left = (
-            "processed left" in text
-            or re.search(r"processed.*left.*", text) is not None
+            "left_processed" in text
+            #or re.search(r"processed.*left.*", text) is not None
         )
 
         self.processed_right = (
-            "processed right" in text
-            or re.search(r"processed.*right.*", text) is not None
+            "right_processed" in text
+            #or re.search(r"processed.*right.*", text) is not None
         )
 
     def parse_system_status(self):
@@ -175,16 +180,35 @@ class LogAnalyzer:
         # Example:
         # RMS offset: 0.000000000 seconds
         pattern = re.compile(
-            r"RMS offset:\s*([-+]?[0-9]*\.?[0-9]+)\s*seconds",
+            r"RMS offset:\s*([-+]?[0-9]*\.?[0-9]+)\s*seconds", # use () to indicate the inside value is to be captured
             re.IGNORECASE
         )
 
-        match = pattern.search(self.log_text)
+        self.time_sync_found = []
+        self.time_sync_offset = []
+        for match in pattern.finditer(self.log_text):
+            offset = float(match.group(1))
+            self.time_sync_offset.append(offset)
 
-        if match:
             self.time_sync_found = True
-            self.time_sync_offset = float(match.group(1))
-
+            
+    # ---------------------------------------------------------
+    # Parsing something
+    # ---------------------------------------------------------
+    def parse_something(self):
+        self.found_something = ("keywords" in self.log_text)
+        
+        pattern = re.compile(
+            r"KEYWORDS here...",
+            re.IGNORECASE
+        )
+        self.found_many = []
+        
+        for match in pattern.finditer(self.log_text):
+            number_val = float(match.group(1))
+            self.found_many.append(number_val)
+        
+        
     # ---------------------------------------------------------
     # Test evaluation
     # ---------------------------------------------------------
@@ -244,17 +268,21 @@ class LogAnalyzer:
                 )
             )
         else:
-            first_fps = self.fps_values[0]
-            last_fps = self.fps_values[-1]
+            first_fps = min(self.fps_values)
+            last_fps = max(self.fps_values)
+
+            status = "PASS" if first_fps > 0 else "FAIL"
+            
+            max_delay = max(self.video_latency_ms)
 
             self.results.append(
                 TestResult(
                     "CAM-FPS-001",
                     "Camera frame-rate reporting",
-                    "INFO",
-                    f"FPS progressed from {first_fps:.2f} "
-                    f"to {last_fps:.2f}. "
-                    "Steady-state requirement must be defined."
+                    status,
+                    f"FPS range from {first_fps:.2f} to {last_fps:.2f}. "
+                    "FPS must be > 0. "
+                    f"Max delay is {max_delay:.2f}ms"
                 )
             )
 
@@ -300,8 +328,20 @@ class LogAnalyzer:
 
         if self.cpu_loads:
             max_cpu = max(self.cpu_loads)
+            min_gpu = min(self.gpu_loads)
             max_gpu = max(self.gpu_loads)
             max_memory = max(self.memory_usage)
+
+            # GPU load must be within the valid percentage range.
+            if min_gpu < 0 or max_gpu > 100:
+                resource_status = "FAIL"
+                gpu_message = (
+                    f"Invalid GPU range={min_gpu:.1f}% to {max_gpu:.1f}% "
+                    "(expected 0-100%)."
+                )
+            else:
+                resource_status = "INFO"
+                gpu_message = f"GPU={max_gpu:.1f}%."
 
             # CPU > 100% is not automatically a failure on
             # multicore Linux systems.
@@ -309,9 +349,9 @@ class LogAnalyzer:
                 TestResult(
                     "SBC-RESOURCE-001",
                     "SBC resource utilization",
-                    "INFO",
+                    resource_status,
                     f"Maximum CPU={max_cpu:.1f}%, "
-                    f"GPU={max_gpu:.1f}%, "
+                    f"{gpu_message} "
                     f"memory={max_memory:.1f}%. "
                     "Transient CPU values above 100% are possible "
                     "on multicore systems and require correlation "
@@ -413,13 +453,14 @@ class LogAnalyzer:
         # -----------------------------------------------------
 
         if self.time_sync_found:
+            max_value = max(self.time_sync_offset)
             self.results.append(
                 TestResult(
                     "TIME-001",
                     "Jetson System time synchronization",
                     "PASS",
                     f"RMS clock offset = "
-                    f"{self.time_sync_offset:.9f} sec."
+                    f"{max_value:.9f} sec."
                 )
             )
         else:
@@ -431,6 +472,13 @@ class LogAnalyzer:
                     "No time synchronization data found."
                 )
             )
+        # ---------------------------------------------------------
+        # finding something
+        # ---------------------------------------------------------
+        if self.found_something:
+            
+            pass
+            
 
     # ---------------------------------------------------------
     # Reporting

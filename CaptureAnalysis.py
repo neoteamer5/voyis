@@ -43,6 +43,15 @@ CAPTURE_COMPLETE_RE = re.compile(
     r"([0-9]+(?:\.[0-9]+)?)\s+s",
     re.IGNORECASE,
 )
+CYCLE_START_RE = re.compile(
+    r"discovery_headless\s+version",
+    re.IGNORECASE,
+)
+
+CYCLE_COMPLETE_RE = re.compile(
+    "Idling until power cycle.",
+    re.IGNORECASE,
+)
 
 DEVICE_DETECTED_RE = re.compile(
     r"Device detected:.*?\(stereo\)",
@@ -185,7 +194,9 @@ def classify_line(
     """
     if current is None:
         return
-
+    if "Device-side saving enabled" in line:
+        print("MATCH TEST:", SAVING_ENABLED_RE.search(line))
+        
     match = SAVING_ENABLED_RE.search(line)
 
     if match:
@@ -275,42 +286,94 @@ def analyze_log(log_path: Path) -> list[CaptureResult]:
     """
     Analyze the application runtime log.
 
-    Args:
-        log_path: Path to application runtime log.
+    One CaptureResult represents one complete power-cycle run.
+
+    Cycle:
+        discovery_headless version
+            ->
+        Capturing N images...
+            ->
+        Capture Session: N images in X s
+            ->
+        Idling until power cycle.
 
     Returns:
         List of capture validation results.
     """
     captures: list[CaptureResult] = []
+
     current: CaptureResult | None = None
+
     capture_number = 0
     last_device_detected: datetime | None = None
 
-    with log_path.open("r", encoding="utf-8", errors="replace") as log_file:
+    with log_path.open(
+        "r",
+        encoding="utf-8",
+        errors="replace",
+    ) as log_file:
+
         for line in log_file:
             timestamp = parse_timestamp(line)
 
             if timestamp is None:
                 continue
 
+            # ---------------------------------------------------------
+            # Device detected
+            # ---------------------------------------------------------
             if DEVICE_DETECTED_RE.search(line):
                 last_device_detected = timestamp
 
-            start_match = CAPTURE_START_RE.search(line)
+            # ---------------------------------------------------------
+            # Start of a NEW full cycle
+            # ---------------------------------------------------------
+            cycle_start_match = CYCLE_START_RE.search(line)
+            if cycle_start_match:
 
-            if start_match:
+                # Previous cycle did not reach:
+                # "Idling until power cycle."
                 if current is not None:
                     finalize_capture(current)
                     captures.append(current)
 
                 capture_number += 1
 
+                # We don't have capture information yet.
                 current = create_capture(
                     number=capture_number,
                     timestamp=timestamp,
-                    expected_images=int(start_match.group(1)),
-                    deadline=float(start_match.group(3)),
+                    expected_images=0,
+                    deadline=0,
                 )
+
+                continue
+
+            if current is None:
+                continue
+
+            # ---------------------------------------------------------
+            # Classify all lines belonging to this cycle.
+            #
+            # This allows lines such as:
+            #   Device-side saving enabled...
+            #   Camera settings confirmed...
+            #   LED disabled.
+            #   Boot time recorded...
+            #
+            # to be processed before capture completion.
+            # ---------------------------------------------------------
+            classify_line(line, timestamp, current)
+
+            # ---------------------------------------------------------
+            # Capture START
+            # ---------------------------------------------------------
+            start_match = CAPTURE_START_RE.search(line)
+
+            if start_match:
+                current.expected_images = int(start_match.group(1))
+                current.save_rate_hz = float(start_match.group(2))
+                current.deadline_seconds = float(start_match.group(3))
 
                 current.device_detected_time = (
                     last_device_detected.strftime(
@@ -320,16 +383,30 @@ def analyze_log(log_path: Path) -> list[CaptureResult]:
                     else None
                 )
 
-            classify_line(line, timestamp, current)
-
-            if current is None:
                 continue
 
+            # ---------------------------------------------------------
+            # Capture COMPLETE
+            #
+            # This does NOT finalize the full cycle.
+            # ---------------------------------------------------------
             complete_match = CAPTURE_COMPLETE_RE.search(line)
 
             if complete_match:
-                current.actual_images = int(complete_match.group(1))
-                current.duration_seconds = float(complete_match.group(2))
+                current.actual_images = int(
+                    complete_match.group(1)
+                )
+
+                current.duration_seconds = float(
+                    complete_match.group(2)
+                )
+
+                continue
+
+            # ---------------------------------------------------------
+            # FULL CYCLE COMPLETE
+            # ---------------------------------------------------------
+            if CYCLE_COMPLETE_RE.search(line):
 
                 if last_device_detected is not None:
                     current.power_on_to_completion_seconds = (
@@ -340,15 +417,20 @@ def analyze_log(log_path: Path) -> list[CaptureResult]:
                     )
 
                 finalize_capture(current)
+
                 captures.append(current)
+
                 current = None
 
+    # -------------------------------------------------------------
+    # Log ended before "Idling until power cycle."
+    # Therefore this is an incomplete cycle.
+    # -------------------------------------------------------------
     if current is not None:
         finalize_capture(current)
         captures.append(current)
 
     return captures
-
 
 def verification_status(
     actual_left: int,
