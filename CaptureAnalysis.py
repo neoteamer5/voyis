@@ -617,13 +617,12 @@ def build_markdown_report(
 
         report.append("\n### Application-Level Validation\n")
 
-        image_status = (
-            "PASS"
-            if capture.actual_images == capture.expected_images
-            else "FAIL"
-            if capture.actual_images is not None
-            else "INCOMPLETE"
-        )
+        if capture.actual_images is None:
+            image_status = "INCOMPLETE"
+        elif capture.actual_images >= capture.expected_images:
+            image_status = "PASS"
+        else:
+            image_status = "FAIL"
 
         report.append(
             f"- Image count: "

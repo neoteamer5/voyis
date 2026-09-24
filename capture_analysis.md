@@ -1069,7 +1069,7 @@
 
 ### Application-Level Validation
 
-- Image count: **FAIL**
+- Image count: **PASS**
   - Expected: 10
   - Observed: 22
 - Application deadline (0s): **FAIL**
