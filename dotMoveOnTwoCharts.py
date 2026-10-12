@@ -291,7 +291,24 @@ def restart(event):
     update(0)
     fig.canvas.draw_idle()
 
+# When GUI (figure) is closed, print Vehicle 1 acceleration and
+# number of seconds to accelerate, and save the figure.
+def on_close(event):
+    try:
+        print(f"Vehicle 1 acceleration = {acceleration} m/s^2")
+        print(f"Seconds to accelerate = {t_intersect} s")
+        # save the current figure
+        fig.savefig("VehicleMotion_1f2t.png", bbox_inches="tight")
+        print("Saved figure to VehicleMotion_1f2t.png")
+    except Exception as e:
+        print("Error during on_close:", e)
+
+
+# Connect the close event handler
+fig.canvas.mpl_connect("close_event", on_close)
+
 btn_restart.on_clicked(restart)
 
-plt.tight_layout()
+# leave 8% at bottom for widgets
+## leave space for the buttons plt.show()
 plt.show()
