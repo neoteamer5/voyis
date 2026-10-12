@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
-from matplotlib.widgets import Button
+from matplotlib.widgets import Button, TextBox
 
 # ==========================================
 # Configuration
@@ -194,14 +194,41 @@ def update(i):
 # ==========================================
 # Create animation (initial)
 # ==========================================
+frame_step = 9  # 1 = real-time, 3 = ~3x faster (less smooth)
+frames = np.arange(0, len(x), frame_step)
+
 ani = FuncAnimation(
     fig,
     update,
-    frames=len(x),
-    interval=1000 / 30,
+    frames=frames,
+    interval=1000/30,  # keep same per-frame ms if you want same FPS feel
     blit=True,
     repeat=False
 )
+
+# ==========================================
+# Widgets: TextBox for frame_step, Pause and Restart buttons
+# ==========================================
+# TextBox for frame_step input
+ax_text = plt.axes([0.02, 0.03, 0.24, 0.06])
+txt_box = TextBox(ax_text, "Frame step (int >=1):", initial=str(frame_step))
+
+def submit_frame_step(text):
+    global frame_step
+    try:
+        val = int(float(text))
+        if val < 1:
+            raise ValueError("must be >= 1")
+    except Exception:
+        # revert displayed value to previous valid
+        txt_box.set_val(str(frame_step))
+        return
+
+    frame_step = val
+    # recreate animation with new frames array
+    #create_animation(frame_step)
+
+txt_box.on_submit(submit_frame_step)
 
 # ==========================================
 # Buttons: Pause/Resume and Restart
@@ -264,11 +291,12 @@ def restart(event):
     acceleration_label.set_text("")
 
     # Recreate the FuncAnimation to ensure fresh frame iterator
+    frames = np.arange(0, len(x), frame_step)
     ani = FuncAnimation(
         fig,
         update,
-        frames=len(x),
-        interval=1000 / 30,
+        frames=frames,
+        interval=1000/30,  # keep same per-frame ms if you want same FPS feel
         blit=True,
         repeat=False
     )
